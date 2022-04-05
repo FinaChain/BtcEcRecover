@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"author": "Andreas Olofsson (androlo1980@gmail.com)",
+			"methods": {},
+			"title": "Secp256k1 * secp256k1 implementation. * The library implements 'Curve' and 'codec/ECCConversion', but since it's a library it does not actually extend the contracts. This is a Solidity thing and will be dealt with later."
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lib/crypto/Secp256k1.sol": "Secp256k1"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lib/crypto/ECCMath.sol": {
+			"keccak256": "0x01d2b4231a5db72ce9eda2b05df434fa6eb078a6da3ce59ba7427ff60bf9b723",
+			"urls": [
+				"bzzr://807f11b4bf4d62c73885db8674db131569ed2a373b5237fffe53eb05ea154bcf"
+			]
+		},
+		"contracts/lib/crypto/Secp256k1.sol": {
+			"keccak256": "0xbcc135c1f033ef31d35a5f72ca10111c3aacf8e5f34731c8fccda49b5c0d82de",
+			"urls": [
+				"bzzr://5dba6df85de4d38c3b38596a20ece38157c9f2e255470a4761029a5d54cf9182"
+			]
+		}
+	},
+	"version": 1
+}

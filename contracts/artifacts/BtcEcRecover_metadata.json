@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "recover",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BtcEcRecover.sol": "BtcEcRecover"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BtcEcRecover.sol": {
+			"keccak256": "0xd76667adbc9ff521d21e61a11430b49aeaa3a558cf85a2df57ebbb952e5ba762",
+			"urls": [
+				"bzzr://43b7a8c3467ac3472140862730e198b8e7c5b73d56969e5d395b8314b4d99172"
+			]
+		},
+		"contracts/lib/crypto/ECCMath.sol": {
+			"keccak256": "0x01d2b4231a5db72ce9eda2b05df434fa6eb078a6da3ce59ba7427ff60bf9b723",
+			"urls": [
+				"bzzr://807f11b4bf4d62c73885db8674db131569ed2a373b5237fffe53eb05ea154bcf"
+			]
+		},
+		"contracts/lib/crypto/Secp256k1.sol": {
+			"keccak256": "0xbcc135c1f033ef31d35a5f72ca10111c3aacf8e5f34731c8fccda49b5c0d82de",
+			"urls": [
+				"bzzr://5dba6df85de4d38c3b38596a20ece38157c9f2e255470a4761029a5d54cf9182"
+			]
+		}
+	},
+	"version": 1
+}

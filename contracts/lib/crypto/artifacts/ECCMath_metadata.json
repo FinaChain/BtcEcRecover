@@ -1,0 +1,38 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"author": "Andreas Olofsson (androlo1980@gmail.com)",
+			"methods": {},
+			"title": "ECCMath * Functions for working with integers, curve-points, etc."
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lib/crypto/ECCMath.sol": "ECCMath"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lib/crypto/ECCMath.sol": {
+			"keccak256": "0x01d2b4231a5db72ce9eda2b05df434fa6eb078a6da3ce59ba7427ff60bf9b723",
+			"urls": [
+				"bzzr://807f11b4bf4d62c73885db8674db131569ed2a373b5237fffe53eb05ea154bcf"
+			]
+		}
+	},
+	"version": 1
+}
